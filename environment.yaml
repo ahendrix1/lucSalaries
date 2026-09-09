@@ -3,6 +3,4 @@ channels:
   - main
 dependencies:
   - python
-  - requests
-  - pandoc
-  - 
+  - numpy
