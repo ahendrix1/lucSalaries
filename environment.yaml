@@ -1,0 +1,8 @@
+name: milestone
+channels:
+  - main
+dependencies:
+  - python
+  - requests
+  - pandoc
+  - 
