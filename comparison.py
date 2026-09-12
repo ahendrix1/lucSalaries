@@ -37,6 +37,8 @@ while n <= 6:
     yearly.append(3 * n * 2465.56)
     n += 1
 
+# TODO export yearly by credit hours per/semester as csv w/ fixed headers
+
 ### ASSIGNMENT
 
 
