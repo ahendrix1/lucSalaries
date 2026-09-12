@@ -26,7 +26,9 @@ for officer in root.iter(
 
 officers = np.array([names, titles, salaries])
 
+
 table = pd.DataFrame(officers.T)
+table = table.rename(columns={0: "name", 1: "title", 2: "salary"})
 
 table.to_csv("admin_out.csv", index=False)
 
