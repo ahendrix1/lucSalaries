@@ -36,6 +36,10 @@ while n <= 6:
     semester.append(n * 2465.56)
     yearly.append(3 * n * 2465.56)
     n += 1
+    
+print("Hourly:", hourly)
+print("Adjunct Yearly:", yearly)
+print("Admin Yearly:", admin)
 
 # TODO export yearly by credit hours per/semester as csv w/ fixed headers
 
